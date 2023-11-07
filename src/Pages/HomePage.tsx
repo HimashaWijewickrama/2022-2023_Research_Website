@@ -16,7 +16,7 @@ const HomePage = (props: Props) => {
   return (
     <div>
       <div className="intro" id="home">
-        <h1 className="animate">HELA WEDAKAMA APPLICATION TO GUIDE PATIENTS AND NATIVE PHYSICIANS</h1>
+        <h1 className="animate">Enhancing Tourist Experience in Sri Lanka through Data-Driven Recommendations</h1>
         <p>Learn More</p>
       </div>
 

@@ -9,12 +9,12 @@ function ResearchGap() {
                 <div className="work">
                     <i className="fas fa-search"></i>
                     <p className="work-heading">Identification & Classification</p>
-                    <p className="work-text">In the process of identifying and classifying research gaps in the field of Traditional Medicine systems for patients and native Physicines, several key areas emerged that warrant further investigation and exploration.</p>
+                    <p className="work-text">In the process of identifying and classifying research gaps in the field of Traditional Tourist Guide applications for local travellers and tourists, several key areas emerged that warrant further investigation and exploration.</p>
                 </div>
                 <div className="work">
                     <i className="fas fa-chart-line"></i>
                     <p className="work-heading">Severity Assessment</p>
-                    <p className="work-text">Severity assessment is a critical component of various processes, particularly in fields such as software development, healthcare, and risk management. It involves evaluating the seriousness or potential impact.</p>
+                    <p className="work-text">Severity assessment is a critical component of various processes, particularly in fields such as software development, economy of Sri Lanka, and risk management. It involves evaluating the seriousness or potential impact.</p>
                 </div>
                 <div className="work">
                     <i className="fas fa-comments"></i>

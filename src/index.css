@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
   height: 100vh;
-  background: url('https://scribemedia.com/wp-content/uploads/2022/03/How-to-Publish-an-Audiobook-in-5-Steps-700x406.jpg');
+  background: url('https://donkaz.com/public/uploads/all/K4BHZBRJyfckr5uIleDXhb0Qfxlrrt7GX8KNHuti.png');
   background-size: cover;
   position: relative;
   
@@ -52,6 +52,7 @@
 
 .intro h1.animate {
   overflow: hidden;
+  cursor: pointer;
   animation: reveal 1s ease-in-out;
 }
 
@@ -79,7 +80,8 @@
   text-align: center;
   width: 100%;
   height: 620px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://www.ayurvedicpharmacompanies.com/wp-content/uploads/2019/09/Ayurvedic-Medicine-Manufacturers-in-Telangana.jpg");
+  cursor: pointer;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://donkaz.com/public/uploads/all/K4BHZBRJyfckr5uIleDXhb0Qfxlrrt7GX8KNHuti.png");
   background-size: cover;
   background-position: relative;
   background-repeat: no-repeat;
@@ -89,7 +91,8 @@
   font-family: sans-serif;
   font-size: 60px;
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
+  /* font-style: italic; */
   text-transform: uppercase;
   margin: 0;
 }
@@ -97,6 +100,7 @@
 .intro p {
   font-size: 20px;
   color: #d1d1d1;
+  cursor: pointer;
   text-transform: uppercase;
   margin: 20px 0;
 }
@@ -119,20 +123,20 @@
 .achievements .work i {
   width: fit-content;
   font-size: 50px;
-  color: #44a855;
+  color: #00C3FF;
   padding: 12px;
 }
 
 .achievements .work .work-heading {
   font-size: 20px;
-  color: #333333;
+  color: #69b6c9;
   text-transform: uppercase;
   margin: 10px 0;
 }
 
 .achievements .work .work-text {
   font-size: 15px;
-  color: #585858;
+  color: #000000;
   margin: 10px 0;
   text-align: justify;
 }
@@ -158,18 +162,18 @@
 }
 
 .card:hover .servicesIcon {
-  color: #008000;
+  color: #00C3FF;
 }
 
 .servicesText:hover {
-  border: 1px solid #008000;
+  border: 1px solid #00C3FF;
 }
 
 /* services section css end */
 
 
 /* my projects css */
-.accordion {
+/* .accordion {
   margin: 40px 0;
 }
 
@@ -180,12 +184,12 @@
 }
 
 .t-p {
-  color: rgb(135, 135, 135);
+  color: rgba(128, 127, 127, 0.292);
   padding: 40px 30px 0px 30px;
 }
 
 .accordion .item .item-header h2 button.btn.btn-link {
-  background: #333435;
+  background: #95badf;
   color: white;
   border-radius: 0px;
   font-family: 'Poppins';
@@ -207,7 +211,7 @@
 }
 
 .accordion .item .item-header h2 button {
-  color: white;
+  color: rgb(248, 233, 233);
   font-size: 20px;
   padding: 15px;
   display: block;
@@ -242,7 +246,7 @@ button.btn.btn-link i {
 
 
 /* my projects css */
-.accordion .card {
+/* .accordion .card {
   color: #424e5d;
   border: 1px solid #dddddd;
 }
@@ -330,7 +334,7 @@ button.btn.btn-link i {
 
 .accordion .rotate {
   transform: rotate(180deg);
-}
+} */ */
 
 /* my projects css end */
 
@@ -348,8 +352,8 @@ button.btn.btn-link i {
 }
 
 .nav-pills-custom .nav-link.active {
-  color: #45b649;
-  background: #ffffff53;
+  color: #00C3FF;
+  background: #93c1cf;
 }
 
 
@@ -424,7 +428,7 @@ button.btn.btn-link i {
 }
 
 .meetteam .carddowndolad:hover .docicon {
-  color: rgb(120, 214, 109);
+  color: rgb(93, 169, 184);
   transition: 0.3s;
 }
 
@@ -483,7 +487,7 @@ button.btn.btn-link i {
 .objectives .circle {
   padding: 13px 20px;
   border-radius: 50%;
-  background-color: #2d9357;
+  background-color: #00C3FF;
   color: #fff;
   max-height: 50px;
   z-index: 1;
@@ -496,7 +500,7 @@ button.btn.btn-link i {
 .objectives .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #c5cf42;
+  border-left: 3px solid #60b4ce;
   z-index: 2;
 }
 
@@ -524,7 +528,7 @@ button.btn.btn-link i {
 }
 
 .objectives .timeline hr {
-  border-top: 3px solid #44ad56;
+  border-top: 3px solid #098fb8;
   margin: 0;
   top: 17px;
   position: relative;
@@ -536,7 +540,7 @@ button.btn.btn-link i {
 }
 
 .objectives .timeline .corner {
-  border: 3px solid #cbce2f;
+  border: 3px solid #08556e;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -578,7 +582,7 @@ button.btn.btn-link i {
 
 .timelinecss ul.timeline:before {
   content: ' ';
-  background: #d5840b;
+  background: #00C3FF;
   display: inline-block;
   position: absolute;
   left: 16px;
@@ -594,7 +598,7 @@ button.btn.btn-link i {
 
 .timelinecss .timeline-arrow {
   border-top: 0.5rem solid transparent;
-  border-right: 0.9rem solid #cf6d12;
+  border-right: 0.9rem solid #00C3FF;
   border-bottom: 0.5rem solid transparent;
   display: block;
   position: absolute;
@@ -603,11 +607,11 @@ button.btn.btn-link i {
 
 .timelinecss li.timeline-item::before {
   content: ' ';
-  background: #ffffff;
+  background: #a6dded;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 4px solid #9f5f2e;
+  border: 4px solid #43aaca;
   left: 5px;
   width: 25px;
   height: 25px;

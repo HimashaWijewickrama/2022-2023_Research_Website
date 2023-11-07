@@ -1,14 +1,16 @@
-import React from 'react'
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ContactUs() {
+
     const handleSubmit = (e: any) => {
         e.preventDefault();
 
         // EmailJS service ID, template ID, and user ID
-        const serviceID = 'service_enqwz5g';
-        const templateID = 'template_uo5wmtr';
-        const userID = '2ZDkcLHfPtIIlKu3V';
+        const serviceID = 'service_qx2e7cx';
+        const templateID = 'template_ukl87t5';
+        const userID = 'PoVJzUTZPqGAbyTd0';
 
         const name = e.target.elements.name.value;
         const email = e.target.elements.email.value;
@@ -23,16 +25,42 @@ function ContactUs() {
             message: message,
         }, userID)
             .then((response) => {
-                console.log('Email sent successfully!', response.status, response.text);
-                alert('Email sent successfully!');
+                console.log('Email sent successfully !', response.status, response.text);
+                // alert('Email sent successfully!');
                 // Reset the form
+                toast.success('Your Message Sent Successfully !', {
+                    position: toast.POSITION.TOP_RIGHT,
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    style: {
+                        fontFamily: "Times New Roman",
+                        fontWeight: 600
+                    }
+                });
                 e.target.elements.name.value = ''
                 e.target.elements.email.value = ''
                 e.target.elements.subject.value = ''
                 e.target.elements.message.value = ''
             })
             .catch((error) => {
-                console.error('Email sending failed:', error);
+                // console.error('Email sending failed:', error);
+                toast.error('Fail to Send Your Message!', {
+                    position: toast.POSITION.TOP_RIGHT,
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    style: {
+                        fontFamily: "Times New Roman",
+                        fontWeight: 600
+                    }
+                });
             });
     };
     return (
@@ -62,15 +90,19 @@ function ContactUs() {
                         <form className="w-100" onSubmit={handleSubmit}>
                             If you have any questions or would like to contact us, please fill out the form below and We will get back to you as soon as possible.
                             {/* Form fields */}<br /><br />
-                            <input type="text" className="form-control form-control" name="name" placeholder="Name" />
-                            <input type="email" className="form-control mt-3" name="email" placeholder="Email" />
-                            <input type="text" className="form-control mt-3" name="subject" placeholder="Subject" />
+                            <input type="text" className="form-control form-control" name="name" placeholder="Name *" required />
+                            <input type="email" className="form-control mt-3" name="email" placeholder="Email Address * " required />
+                            <input type="text" className="form-control mt-3" name="subject" placeholder="Subject *" required />
                             <div className="mb-3 mt-3">
-                                <textarea className="form-control" rows={5} id="comment" name="message" placeholder="Message"></textarea>
+                                <textarea className="form-control" rows={5} id="comment" name="message" placeholder="Message *" required></textarea>
                             </div>
 
                             {/* Submit button */}
-                            <button type="submit" className="btn btn-success mt-3" style={{ width: '100%' }}>Send Mail</button>
+                            <button type="submit" className="btn btn-success mt-3" style={{ width: '100%', backgroundColor: '#00c3ff', borderColor: '#ffffff' }}><i className="fa fa-paper-plane-o" aria-hidden="true" style={{ paddingRight: '10px' }}></i>
+
+                                Send</button>
+                                
+                                <ToastContainer />
                         </form>
                     </div>
 

@@ -12,48 +12,47 @@ function Methodology() {
                         </div>
                         <div className="col-lg-5">
                             <p style={{ textAlign: 'justify' }} className='me-5'>
-                                The proposed Hela Wedakama system consists of 4 main components. They are;
+                                The proposed Tour Buddy system consists of 4 main components. They are;
                                 <br /><br /><ol style={{ fontWeight: '600', marginLeft: '5%' }}>
-                                    <li>Ayurvedic Plant Identification</li>
-                                    <li>Disease Identification and Recommended Doctor</li>
-                                    <li>Handwritten Prescription Reading</li>
-                                    <li>Hela Nila Wedakama</li>
+                                    <li>Develop Tour Specific Destination</li>
+                                    <li>Develop Food and Dining Recommendations and Dish Identification</li>
+                                    <li>Activity & Events Recommendations & Identification</li>
+                                    <li>Develop Transportation Recommendations</li>
                                    
                                 </ol>
-                                The user captures an image for the
-                                application and the backend processes the image through the
-                                YOLO nas and TensorFlow TFLite models for plant
-                                identification using machine learning protocols. The output
-                                will include the plant's common name and its geographical
-                                location.
+                                Data collection for this research was done in collaboration with the Sri 
+                                Lanka Tourism Department. We have read the paper containing the disordered 
+                                data with the information received and processed the information as necessary 
+                                for us to do this research. The data collected from this department is the 
+                                basis for training and testing the Tour Buddy app's deep learning algorithms.
                                 <br /><br />
-                                Disease Identification and Recommended Doctor component was implemented based on machine
-                                learning and the Naive Bayes algorithm  was used for
-                                this. Algorithms and other imports required by sklearn
-                                were entered into the program. Pandas were used to
-                                handle the dataset. Python and FastAPI framework were
-                                used for the machine learning part and JavaScript language
-                                and Express framework were used to implement other APIrelated parts. MongoDB was used as the database.
-                                Since this research is related to a mobile application.
+                                Used React Native to develop an intuitive and user-friendly interface. 
+                                The design emphasizes clarity and usability, ensuring that Tourists can 
+                                easily engage with the system. Used React Native's cross-platform 
+                                features to create displays that provide a consistent and engaging experience on 
+                                both Android and iOS devices. The user interface also contains the necessary 
+                                technologies to clearly present the relevant recommended event. The app's emphasis 
+                                on user-centric design seeks to improve accessibility and ensure that it satisfies 
+                                the demands of its broad user base.The application's emphasis on user-centric design 
+                                strives to improve accessibility and guarantee that it satisfies the demands of its 
+                                broad user base.
                                 
                                 <br /><br />
-                                how to recognize and
-                                interpret prescription details from a handwritten prescription
-                                in Hela Wedakama. Python, JavaScript, Android, and Deep
-                                Learning are the most utilized languages. This component
-                                was created using deep learning and the Convolutional
-                                Neural Network (CNN) algorithm. TensorFlow, Keras,
-                                Pandas, and Sklearn are all widely used libraries. Fast API
-                                is utilized by the Python Framework, and Express.js is used
-                                by the JavaScript Framework.
+                                Convolutional Neural Network (CNN) is a type of deep learning neural network that is 
+                                used to process image data. In food identification, CNN-based image processing models 
+                                used to analyze food and dish images to identify key features and characteristics. 
+                                The models trained on a large dataset of food and dish images and are designed 
+                                to recognize the unique visual characteristics of different types of food and dishes, 
+                                which are then used by the recommendation engine to make personalized food 
+                                recommendations.
                                 <br/><br/>
-                                Identification and treatment of pressure points on the human body through augmented
-                                 reality (AR) technology, with a specific focus on their
-                                 applicability to various diseases. The implementation of this
-                                 component involved the utilization of Unity AR Foundation
-                                 augmented reality software development kit (SDK) and the
-                                 Random Forest machine learning algorithm to accurately
-                                 classify optimal pressure points for specific diseases
+                                Machine learning is a type of artificial intelligence that enables a system to 
+                                learn from data rather than being explicitly programmed. In the context of your component,
+                                machine learning is used to analyze large sets of food and dish images to recognize patterns 
+                                and make personalized food recommendations based on the user's dietary restrictions, preferences, 
+                                and other relevant factors. The most popular machine learning regressions, Random forest regression 
+                                and XGBRegressor used to train the models of Destination and Transportation components with a 
+                                high accuracy. 
                             </p>
                         </div>
                     </div>

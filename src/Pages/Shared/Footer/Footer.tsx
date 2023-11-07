@@ -10,11 +10,11 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-4 col-xs-4">
                             <div className="footer-text pull-left">
                                 <div className="d-flex">
-                                    <h2 style={{ color: "#8ca3ba" }}> <img style={{ width: "40px", height: "40px", marginRight: "10px" }}
-                                        src="/src/images/logo2.jpg" />
+                                    <h2 style={{ color: "#00C3FF" }}> <img style={{ width: "40px", height: "40px", marginRight: "10px" }}
+                                        src="" />
                                         TOUR BUDDY</h2>
                                 </div>
-                                <p className="card-text">
+                                <p className="card-text" style={{textAlign: 'justify'}}>
                                     The main objective of the proposed Tour Buddy
                                     system is to enhance the tourist experience in Sri Lanka through a
                                     data-driven recommendation web application. Using machine learning,
@@ -63,7 +63,7 @@ const Footer = () => {
                     <div className="divider mb-4"> </div>
                     <div className="row" style={{ fontSize: "12px", textAlign: "center" }}>
                         <div>
-                            &copy; 2022 - 2023 TourBuddy Team | All Rights Reserved
+                            &copy; 2023 TourBuddy Team | All Rights Reserved
                         </div>
                     </div>
                 </div>

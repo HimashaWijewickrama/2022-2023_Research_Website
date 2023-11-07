@@ -1,4 +1,3 @@
-import React from 'react'
 
 function LiteratureSurvey() {
     return (
@@ -9,61 +8,64 @@ function LiteratureSurvey() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                         <p style={{ textAlign: 'justify' }} className='me-5'>
-                         Traditional medicine, which includes traditions such as
-                         Ayurveda, Hela Wedakama, and Nila Wedakama, is
-                         extremely important in Sri Lanka's healthcare system.
-                         However, these approaches faced problems such as a lack of
-                         standardization, competent staff, and access to modern
-                         medical facilities. This requires the incorporation of
-                         advanced technologies to improve patient care, increase
-                         diagnostic and treatment accuracy, and maintain traditional
-                         medical knowledge. This literature study focuses on the use
-                         of technology in four important components. These are
-                         disease identification and suggested doctors, herbal plant
-                         identification and geolocation, handwritten prescription
-                         recognition, and pressure point identification in traditional
-                         medicine.
-                        Technology integration with traditional medicine
-                        practices can transform healthcare delivery, enhance patient
-                        outcomes, and retain vital traditional knowledge. The
-                        proposed research aims to improve patient safety, facilitate
-                        effective treatment, and contribute to the advancement of
-                        traditional medicine by addressing the challenges of accurate
-                        disease identification, herbal plant recognition, deciphering
-                        handwritten prescriptions, and precise pressure point identification.
+                        Sri Lanka is a country that is rich in culture and natural beauty,
+                        making it an attractive destination for tourists from around the world. 
+                        However, one issue that tourists often face when traveling to a new place 
+                        is the difficulty of finding and accessing information about local events 
+                        and activities. This is particularly true in Sri Lanka, where there is no 
+                        centralized platform that provides comprehensive information about events 
+                        and activities taking place in the country. As a result, tourists are often 
+                        left to search for information using multiple sources, which can be time-consuming 
+                        and frustrating. Another study by [1] looked at the development of a data-driven 
+                        recommendation system for tourism in Sri Lanka more broadly. The system used machine 
+                        learning algorithms to analyze data on tourist preferences and ratings, as well as 
+                        information about local events and activities. The system was designed to provide 
+                        personalized recommendations to tourists based on their interests and travel dates. 
+                        One study that is relevant to the component is the work by [2], who developed a 
+                        recommendation system for cultural tourism activities in China. The system used a 
+                        combination of collaborative filtering and content-based filtering techniques to 
+                        recommend activities based on user preferences, travel dates, and the popularity of activities. 
+                        The system was found to be effective in increasing user satisfaction with cultural tourism activities.
+                        
  
 
                                 <br /><br />
-                                Traditional medical systems such as Ayurveda and
-                                Hela Wedakama have been thoroughly researched for their
-                                effectiveness in treating a variety of diseases. Ayurvedic
-                                medicine has been demonstrated in tests to be useful in
-                                controlling illnesses such as diabetes [1] and reducing
-                                osteoarthritis symptoms [2]. In addition, examined the effect
-                                of Ayurvedic medicine in the management of chronic
-                                diseases [3]. Furthermore, machine learning-based
-                                approaches for identifying and classifying. These studies
-                                demonstrate the power of technology in illness detection and
-                                recommend doctors according to relevant diseases.
-                                preservation of medicinal plant knowledge is critical in
-                                traditional medicine. Plant identification and conservation
-                                initiatives have shown potential with machine learning (ML)
-                                and geolocation technology. Machine Learning-based plant
-                                identification approaches have attained excellent accuracy,
-                                and the incorporation of geolocation data has aided in
-                                mapping medicinal plant ranges. 
+                                Considering "Develop tour specific destination" Tourism destination recommendation 
+                                systems are gaining prominence in the tourism industry, 
+                                driven by the application of machine learning algorithms and big data analytics. 
+                                These systems offer personalized recommendations, considering tourists' preferences, 
+                                travel behavior, and socio-demographic information. While they hold great potential, 
+                                there are challenges to address. The quality of recommendations is tied to data quality 
+                                and quantity, and concerns about algorithm transparency and accountability persist. 
+                                Cultural context is a pivotal factor in tourism recommendations, as tourists seek unique 
+                                cultural experiences. Recommendations must align with a destination's history, traditions, 
+                                festivals, cuisine, and arts, while accounting for tourists' diverse cultural backgrounds and 
+                                preferences. User interface design is another critical aspect, influencing tourists' trust and usage. 
+                                A user-friendly interface enhances the overall travel experience and the perception of Sri Lanka's tourism sector. 
+                                Additionally, accuracy and reliability are paramount to establish trust, ensuring tourists 
+                                can access the best destinations and sustainable tourism practices.
 
                                 <br /><br />
-                                The use of these
-                                technologies in Sri Lankan traditional medicine can aid in the
-                                conservation and identification of herbal plants.
-                                Patients and healthcare providers face difficulties
-                                recognizing handwritten Sinhala prescriptions. Previous
-                                research investigated using optical character recognition
-                                (OCR) technology to read printed text but ran into problems
-                                with handwritten text recognition [4][5].Recent advances in
-                         machine learning techniques have the potential to increase the
-                         accuracy of manual text recognition. 
+                                Also considering "food and dining recommendation and dish identification", 
+                                The literature survey within this work highlights the significance of food 
+                                picture recognition in food recommendation systems, particularly for the 
+                                tourism industry. Users can take images of their meals via mobile devices, 
+                                and deep learning techniques, underpinned by artificial intelligence, are 
+                                simplifying the identification of various food items within these images. 
+                                The primary focus is on creating a dish identification component for tourists 
+                                visiting Sri Lanka, enabling quick access to information about local foods. 
+                                Despite the existence of food identification systems for various purposes, 
+                                their application in the tourism sector remains limited. Existing studies 
+                                have contributed to this field. "FoodX-251" presented by [3] 
+                                established a comprehensive food classification dataset, while "Chinese FoodNet" 
+                                by [4] concentrated on traditional Chinese foods. These datasets 
+                                support a range of deep learning techniques and have achieved notable results 
+                                in food image recognition. However, there is a significant gap in the literature 
+                                regarding the integration of food recommendation and dish identification, especially 
+                                within the context of enhancing tourism experiences in Sri Lanka. This project aims 
+                                to address this gap by developing a unified recommendation system that seamlessly 
+                                combines food and meal suggestions with the recognition of dishes, catering specifically 
+                                to the tourism sector.
                                 <br></br>
 
                                
@@ -76,79 +78,69 @@ function LiteratureSurvey() {
 
  
                                 <br /><br />
-                                The research on visual
-                         character identification for manuscripts utilized deep learning
-                         algorithms and image processing approaches to accurately
-                         detect Sinhala characters [6].
-                                 Hela Nila Wedakama discusses
-                         the importance of identifying pressure parts on the body. AR
-                         mixed with machine learning has been used successfully in a
-                        variety of medical applications. For skin lesion detection and
-                        diagnosis, AR-based apps based on machine learning
-                        algorithms have been created [7]. Machine learning
-                        algorithms based on disease-specific pressure point patterns
-                        can give accurate forecasts and improve traditional
-                        techniques such as Hela Nila Wedakama.The study of literature shows the possibility of
-                        incorporating technology into traditional medicinal methods
-                        such as Ayurveda, Hela Wedakama, and Nila Wedakama to
-                        solve the issues that these systems must face. The research
-                        covered highlights the efficacy of Ayurvedic and Hela
-                        Wedakama remedies for various ailments, the successful use
-                        of machine learning in plant identification and disease
-                        diagnosis, and the use of augmented reality in pressure point
-                        identification.
+                                Also considering "Activity and event recommendation", The literature survey delves into 
+                                the challenges tourists face in Sri Lanka due to the absence of a centralized platform 
+                                for event and activity information. It highlights the emerging field of data-driven recommendation 
+                                systems, which employ machine learning to offer personalized suggestions for a more enriching tourist 
+                                experience.The study by [5] focused on developing a recommendation system for tourist 
+                                attractions in the Kandy region, reporting increased user satisfaction and attraction popularity. 
+                                Similarly, [1] conducted research on a broader scale in Sri Lanka, providing 
+                                personalized recommendations for local events and activities, with positive outcomes in terms of 
+                                user satisfaction and increased participation.Several other initiatives and studies in China and Romania 
+                                emphasized the effectiveness of data-driven recommendation systems, spanning cultural tourism activities, 
+                                personalized travel routes, and tourist attractions. These systems significantly improved user satisfaction 
+                                and the number of visits to tourist sites. In summary, these studies offer compelling evidence of data-driven 
+                                recommendation systems' effectiveness in enhancing the tourist experience. By analyzing user data, these 
+                                systems can provide tailored recommendations that enable users to explore and enjoy diverse cultural experiences 
+                                and activities. Such systems have the potential to significantly enhance the tourist experience in Sri Lanka by 
+                                simplifying trip planning and ensuring visitors can make the most of their time in the country.
                     
                                 <br /><br />
-                                Despite these advances, there is still a need for
-                    a comprehensive Smart Hela Wedakama application that
-                    includes all four components (disease identification and
-                    recommended doctors, herbal plant identification and
-                    geolocation, handwritten prescription identification, and
-                    pressure point identification).Previous literature has
-                    concentrated on individual components, but there is a lack of
-                    a comprehensive method that combines various components
-                    into a unified application.
+                                Also considering "develop transport recommendation" The literature survey within this work underscores 
+                                the pivotal role of transportation convenience and personalization in enhancing the tourist experience. 
+                                Various studies, including [6] and [7], have demonstrated the 
+                                profound influence of transportation on tourist satisfaction. Personalized transportation services, as 
+                                advocated by Rezapouraghdam et al., can significantly enhance visitors' enjoyment. The study titled 
+                                "A personalized recommendation system for multi-transportation system" introduces an innovative approach 
+                                that blends transportation engineering with user behavioral data, leveraging recommendation systems'
+                                success in other industries. This system adapts travel recommendations based on real-time traffic data, 
+                                prioritizing sustainable transportation when traffic congestion occurs. This research reflects a dedication 
+                                to societal improvement and has the potential to transform multi-modal transportation while mitigating environmental 
+                                and congestion issues. Another study by [8] explores a machine learning approach for 
+                                recommending urban transportation modes, considering both sequential and contextual data. The findings highlight the 
+                                system's effectiveness in providing high-quality recommendations and enhancing user comfort and urban mobility.
                     
                                 <br /><br />
-                                <span style={{ fontSize: '12px' }}>References
+                                <span style={{ fontSize: '11px', fontStyle: "italic" }}><span style={{fontSize: '11px', fontWeight: "bold"}}>References</span>
                                     <br />
-                                    [1] Tripathi JS, Singh RH, Pandey AK, Dubey GP. Clinical
-                                        efficacy of Ayurveda treatment regimen on diabetic
-                                        nephropathy: A retrospective study. J Ayurveda Integr
-                                        Med. 2018; 9 (2):88-93. doi:10.1016/j.jaim.2017.11.001
+                                    [1] Jayaweera, H. P., Wijayanayake, W. M. J. I., & Fernando, S. W. 
+                                        A data-driven recommendation system for tourism in Sri Lanka. 
+                                        2021 Moratuwa Engineering Research Conference (MERCon), 1-5.
                                     <br />
-                                    [2] Liyanage KADM, Kumarasinghe N. A clinical study of
-                                        Sivappu Kalkam in the management of osteoarthritis
-                                        knee. J Tradit Complement Med. 2020:10 (6):564-569.
-                                        doi: 10.1016/j.jtcme.2020.
+                                    [2] Zhang, Y., Zhang, W., Chen, L., & Chen, G.  A recommendation system for cultural tourism activities in China. 
+                                    Tourism Management. 84, 104306.
+                                    doi: 10.1016/j.tourman.2021.104306.
                                    <br />
-                                    [3] Mishra S, Palanivelu K. The effect of Ayurvedic
-                                        medicine in the management of chronic diseases: A
-                                        systematic review. Complement Ther Med. 2019;
-                                        44:223-232. doi: 10.1016/j.ctim.2019.02.015
+                                    [3] Tran Quang-Linh, Gia-Huy Lam, Quang-Nhat Le, Hieu Tran Trung. A Comparison of Several Approaches for Image 
+                                    Recognition used in Food Recommendation System 2021;
+                                    doi:10.1109/COMNETSAT53002.2021.9530793.
                                      <br />
-                                    [4] J. Silva, G. S. Siriwardhana, and M. A. S. Perera, "Deep
-                                        Learning Approach for Sinhala Character Recognition,"
-                                        2019 6th International Conference on Information
-                                        Technology (ICIT), Colombo, Sri Lanka, 2019, pp. 1-6.
+                                     [4] Lixi Deng, Jingjing Chen, Qianru Sun, Xiangnan He, Sheng Tang, Zhaoyan Ming,
+                                         Yongdong Zhang (2019). Mixed-Dish Recognition With Contectual Relation Networks. MM '19: Proceedings of the 27th ACM International 
+                                         Conference on Multimedia
+                                         https://doi.org/10.1145/3343031.3351147.
                                         <br />
-                                     [5] Karunarathna, D., Dilshan, M. M. H., & Munasinghe, W.
-                                        K. (2019). Visual character recognition for handwritten
-                                        Sinhala documents. 2019 Moratuwa Engineering
-                                        Research Conference (MERCon), 7-12. doi:
-                                        10.1109/MERCon.2019.8767661
+                                     [5] Fernando, S. W., Wijayanayake, W. M. J. I., & Thilakarathne, C. D. (2020). A personalized recommendation system for tourist attractions 
+                                         in Kandy. International Journal of Scientific and Technology Research, 9(5), 2325-2331.
                                      <br />
-                                    [6] Engel, S., Ayvaz, S., & Salmasian, H. (2019). Evaluation
-                                        of the accuracy of the MedSnap mobile application in
-                                        identifying oral medications using photographs of
-                                        medications taken with smartphones. JAMA Network
-                                        Open, 2(9), e1911560-e1911560. doi:
-                                        10.1001/jamanetworkopen.2019.11560
+                                    [6] Z. Luo, X. Wang, X. Wang, F. Li and Y. Yin, "A Review of Travel Mode Choice Behavior Research: Evolution, Trends, and Future Directions," 
+                                        IEEE Access, vol. 7, pp.123702-123715, 2019. doi: 10.1109/ACCESS.2019.2934427.
                                     <br />
-                                    [7] Mustafa SIRAKAYA, Didem ALSANCAK
-                                        SIRAKAYA. “Trends in Educational Augmented
-                                        Reality Studies: A Systematic Review”.
-                                       doi.org/10.17220/mojet.2018.04.005
+                                    [7] S. S. Rezapouraghdam, S. A. S. Mousavi, and A. A. A. Rostamy, "A novel approach for ridesharing based on the improved genetic algorithm 
+                                        with a new chromosomal representation," IEEE Access, vol. 8, pp. 31228-31239, 2020.  
+                                    <br/>
+                                    [8] Gunjan Kumar, Houssem Jerbi, and Michael P. O’Mahony, "Personalised Recommendations for Modes of Transport: A Sequence-based Approach," 
+                                    The 5th International Workshop on Urban Computing at 22nd ACM SIGKDD, 2016.  
 
                                 </span>
                             </p>

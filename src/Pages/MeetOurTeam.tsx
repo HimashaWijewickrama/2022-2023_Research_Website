@@ -1,46 +1,56 @@
-import React from 'react'
+import React from 'react';
+// import logoImage from '../../src/images/logo2.png';
+
 
 function MeetOurTeam() {
     const ourTeamPanl = [
         {
-            name: 'Mr. Udara Samaratunga',
+            name: 'Mr. Supunya Swarnakantha',
             position: 'Supervisor',
-            image: 'https://www.sliit.lk/profile/uploads/scan_image_1486723808-profile2.JPG',
-            department: 'Computer Science & Software Engineering'
+            image: 'https://static.sliit.lk/profile/ravis-1603858905.jpeg',
+            department: 'Faculty of Computing | Information Technology',
+            scholarProfile: 'https://scholar.google.com/citations?hl=en&user=W_x-lmkAAAAJ&view_op=list_works&gmla=AJsN-F4KpSSQQcTavhwENh8Xr53quV2fgF3k6kM138Yw35w1Ej2Ly4TTMVDc7wY8nh20ZSm4eCIMG2JzWx-Q39Nm2uZBIcKYEw',
+            emailAccount: 'ravi.s@sliit.lk'
         },
         {
-            name: 'Mr. Didula   Chamara',
+            name: 'Dr. Samantha Rajapaksha',
             position: 'Co_Supervisor',
-            image: 'https://static.sliit.lk/profile/didulac-1653890802.jpg',
-            department: 'Computer Science & Software Engineering'
+            image: 'https://www.sliit.lk/profile/uploads/scan_image_1505800097-Mr__Samantha.jpg',
+            department: 'Faculty of Computing | Information Technology',
+            scholarProfile: 'https://scholar.google.com/citations?hl=en&user=t1krVdkAAAAJ',
+            emailAccount: 'samantha.r@sliit.lk'
         }
     ]
 
     const ourTeamMem = [
         {
-            name: 'kumara V.G.A.P',
+            name: 'Nethmin N.A.L.',
             position: 'Group Leader',
-            image: 'https://github.com/SachiniRasanga/RP_Project_mobile_app/blob/master/ashan.png?raw=true',
-            department: 'Computer Science & Software Engineering'
+            image: '',
+            department: 'Faculty of Computing | Information Technology',
+            emailAccount: 'IT20148690@my.sliit.lk'
         },
         {
-            name: 'Tharuka Gayashan F.',
+            name: 'Sudeepa Saranga L.G.',
             position: 'Group Member',
-            image: 'https://github.com/SLIIT-Project-ORG/Ayusha_Helawedakama_Online_Platform/blob/master/gayashan.jpg?raw=true',
-            department: 'Computer Science & Software Engineering'
+            image: '',
+            department: 'Faculty of Computing | Information Technology',
+            emailAccount: 'IT20155216@my.sliit.lk'
         },
-        
+
         {
-            name: 'Nethu Nipuna M.',
+            name: 'Tharindu Dilshan A.D.',
             position: 'Group Member',
             image: 'https://media.licdn.com/dms/image/D5603AQHksg4WhzJcqg/profile-displayphoto-shrink_400_400/0/1662279130307?e=1703721600&v=beta&t=KxKhG05EwHOBPsdb3lE7OgDRkoAkw36cXRHgGY1f5wQ',
-            department: 'Computer Science & Software Engineering'
+            department: 'Faculty of Computing | Information Technology',
+            emailAccount: 'it20163136@my.sliit.lk'
         },
         {
-            name: 'Abeywardhanage S.R.D',
+            name: 'Wijewickrama H.E.',
             position: 'Group Member',
             image: 'https://github.com/SLIIT-Project-ORG/Ayusha_Helawedakama_Online_Platform/blob/master/sachini.jpg?raw=true',
-            department: 'Computer Science & Software Engineering'
+            department: 'Faculty of Computing | Information Technology',
+            emailAccount: 'himashawije5678@gmail.com'
         },
     ]
 
@@ -67,13 +77,17 @@ function MeetOurTeam() {
                                         {ourTeamm?.department}
                                     </p>
                                 </div>
+
                                 <div className="card-read-more">
-                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block ms-2">
-                                        <i className="fab fa-google me-1 mb-5"></i> G-Scholar
-                                    </a>
-                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block">
-                                        <i className="fas fa-envelope-open-text me-1 mt-5"></i> E-Mail
-                                    </a>
+                                    <div className="center-icon">
+                                        <a href={ourTeamm?.scholarProfile} style={{ fontSize: '14px', color: '#00c3ff' }}>
+                                            <i className="fab fa-google me-1 mb-5"></i> G-Scholar
+                                        </a>
+                                        <a href={`mailto:${ourTeamm?.emailAccount}`} style={{ fontSize: '14px', color: '#00c3ff' }}>
+                                            <i className="fas fa-envelope-open-text me-1 mb-5"></i> E-Mail
+                                        </a>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -99,13 +113,14 @@ function MeetOurTeam() {
                                     </p>
                                 </div>
                                 <div className="card-read-more">
-                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block ms-2">
-                                        <i className="fab fa-google me-1 mb-5"></i> G-Scholar
-                                    </a>
-                                    <a href="/" style={{ fontSize: '14px', color: 'green'}} className="btn btn-link btn-block">
-                                        <i className="fas fa-envelope-open-text me-1 mt-5" ></i> E-Mail
-                                    </a>
+                                    <div className="center-icon">
+                                        <a href={`mailto:${ourTeamm?.emailAccount}`} style={{ fontSize: '14px', color: '#00c3ff' }}>
+                                            <i className="fas fa-envelope-open-text me-1 mb-5"></i> E-Mail
+                                        </a>
+                                    </div>
+
                                 </div>
+
                             </div>
                         </div>
                     ))}

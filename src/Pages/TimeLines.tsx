@@ -92,7 +92,7 @@ function TimeLines() {
 
                                     <h6 className="">Marks Allocated :<span style={{ fontWeight: '400' }}> {timeline?.mark}</span></h6>
                                     <div className="progress mt-3 w-75" >
-                                        <div className="progress-bar bg-success" role="progressbar" style={{ width: `${timeline?.progress}` }}>
+                                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: `${timeline?.progress}` }}>
                                             {timeline?.progress}
                                         </div>
                                     </div>

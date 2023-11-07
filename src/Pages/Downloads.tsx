@@ -83,7 +83,7 @@ function Downloads() {
     ]
 
     return (
-        <section className='mt-5 meetteam' style={{ backgroundColor: '#dff5eb', padding: '30px' }} id='Documents'>
+        <section className='mt-5 meetteam' style={{ backgroundColor: '#a6e4f7', padding: '30px' }} id='Documents'>
             <h1 style={{ marginLeft: '8%' }} className='mb-5'>Downloads</h1>
 
             <h4 style={{ marginLeft: '10%' }}>Documents</h4>
@@ -104,7 +104,7 @@ function Downloads() {
                                     <p style={{ fontSize: '15px', color: 'black', textDecoration: 'none', fontWeight: '500' }} className="btn btn-link btn-block ms-2">
                                         {document?.grouporindi}
                                     </p>
-                                    <p style={{ fontSize: '15px', color: 'green', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block" onClick={() => { window.open(`${document?.link}`) }}>
+                                    <p style={{ fontSize: '15px', color: '#00C3FF', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block" onClick={() => { window.open(`${document?.link}`) }}>
                                         <i className="fas fa-download me-1"></i> Download
                                     </p>
                                 </div>

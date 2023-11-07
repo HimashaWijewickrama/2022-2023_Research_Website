@@ -224,7 +224,7 @@ const Navbar = () => {
                 <div className="navbar-heading mt-2">
                     <h3 style={{ marginLeft: '30px' }}>
                         <Link className="navbar-h ms-5" to="/">
-                            <img src="https://github.com/SachiniRasanga/RP_Project_mobile_app/blob/master/get.png?raw=true" style={{ height: '50px' }} alt="Logo" className="logo-image me-3" />
+                            <img src="/src/image/logo1.jpg" style={{ height: '50px' }} alt="Logo" className="logo-image me-3" />
                             AYUSHA
                         </Link>
                     </h3>
