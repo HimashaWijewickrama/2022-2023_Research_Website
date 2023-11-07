@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="footer-text pull-left">
                                 <div className="d-flex">
                                     <h2 style={{ color: "#00C3FF" }}> <img style={{ width: "40px", height: "40px", marginRight: "10px" }}
-                                        src="" />
+                                        src="https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/Logo_main.png?raw=true" />
                                         TOUR BUDDY</h2>
                                 </div>
                                 <p className="card-text" style={{textAlign: 'justify'}}>

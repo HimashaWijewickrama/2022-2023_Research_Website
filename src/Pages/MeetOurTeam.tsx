@@ -1,6 +1,4 @@
 import React from 'react';
-// import logoImage from '../../src/images/logo2.png';
-
 
 function MeetOurTeam() {
     const ourTeamPanl = [
@@ -26,14 +24,14 @@ function MeetOurTeam() {
         {
             name: 'Nethmin N.A.L.',
             position: 'Group Leader',
-            image: '',
+            image: 'https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/mem1.jpg?raw=true',
             department: 'Faculty of Computing | Information Technology',
             emailAccount: 'IT20148690@my.sliit.lk'
         },
         {
             name: 'Sudeepa Saranga L.G.',
             position: 'Group Member',
-            image: '',
+            image: 'https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/mem2.jpg?raw=true',
             department: 'Faculty of Computing | Information Technology',
             emailAccount: 'IT20155216@my.sliit.lk'
         },
@@ -41,16 +39,16 @@ function MeetOurTeam() {
         {
             name: 'Tharindu Dilshan A.D.',
             position: 'Group Member',
-            image: 'https://media.licdn.com/dms/image/D5603AQHksg4WhzJcqg/profile-displayphoto-shrink_400_400/0/1662279130307?e=1703721600&v=beta&t=KxKhG05EwHOBPsdb3lE7OgDRkoAkw36cXRHgGY1f5wQ',
+            image: 'https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/mem3.jpg?raw=true',
             department: 'Faculty of Computing | Information Technology',
             emailAccount: 'it20163136@my.sliit.lk'
         },
         {
             name: 'Wijewickrama H.E.',
             position: 'Group Member',
-            image: 'https://github.com/SLIIT-Project-ORG/Ayusha_Helawedakama_Online_Platform/blob/master/sachini.jpg?raw=true',
+            image: 'https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/mem4.jpg?raw=true',
             department: 'Faculty of Computing | Information Technology',
-            emailAccount: 'himashawije5678@gmail.com'
+            emailAccount: 'it20173586@my.sliit.lk'
         },
     ]
 
@@ -63,7 +61,7 @@ function MeetOurTeam() {
                         <div className="col-xs-12 col-sm-3">
                             <div className="card d-flex flex-column h-100">
                                 <a className="img-card">
-                                    <img src={ourTeamm?.image} alt='' />
+                                    <img src={ourTeamm?.image} alt='' style={{width: '100%', height: '100%'}}/>
                                 </a>
                                 <div className="card-content">
                                     <h4 className="card-title mb-3"> {ourTeamm?.name}</h4>
@@ -98,11 +96,11 @@ function MeetOurTeam() {
                         <div className="col-xs-12 col-sm-3">
                             <div className="card d-flex flex-column h-100">
                                 <a className="img-card">
-                                    <img src={ourTeamm?.image} alt='' />
+                                    <img src={ourTeamm?.image} alt='' style={{height: '100%', width: '100%'}}/>
                                 </a>
                                 <div className="card-content">
                                     <h4 className="card-title mb-3"> {ourTeamm?.name}</h4>
-                                    <img className='mb-2' src={`https://img.shields.io/badge/-${ourTeamm?.position}-807e7e`} />
+                                    <img className='mb-4' src={`https://img.shields.io/badge/-${ourTeamm?.position}-807e7e`} />
                                     <p style={{ fontSize: '14px' }}>
                                         Sri Lanka Institute of Information Technology
                                     </p>

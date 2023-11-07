@@ -7,7 +7,7 @@ function Downloads() {
             name: 'Topic Assessment',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/document/d/1V3lsV5mIgbX9QURzJ8GIn63MeHZrzOM3/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://docs.google.com/document/d/1O-DsZzEAI_1hPKWqkX02iiMybEHiRybRwtI9yIfSA7I/edit?usp=sharing'
             
         },
         {
@@ -20,38 +20,38 @@ function Downloads() {
             name: 'Project Proposal',
             submittionDate: '2023-09-28',
             grouporindi: 'Individual',
-            link: 'https://drive.google.com/drive/folders/1I_ExrA41-lIeNZFwtscgeIi9sQCn0moc?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1a9zXUNOSjF4laV24ZxoaEGvQWP5E1noj?usp=sharing'
         },
         {
-            name: 'Status Documents I',
+            name: 'Status Documents 1',
             submittionDate: '2023-09-28',
             grouporindi: 'Individual',
-            link: 'https://drive.google.com/drive/folders/1t6QtZqTfOjWfkK5X4JKLr7SeYMeZ8_JQ?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1iTT2X9JAhwSVLgwQM4eSe2JMzuyjJYM-?usp=sharing'
         },
         {
-            name: 'Status Documents II',
+            name: 'Status Documents 2',
             submittionDate: '2023-09-28',
             grouporindi: 'Individual',
-            link: 'https://drive.google.com/drive/folders/1wBghtePY8ZYiWI0T14iFJCF5REba3EbP?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1iDljgkNjBRUtsb3ryMoMuWLge0oHu3qF?usp=sharing'
             
         },
         {
             name: 'Research Paper',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/drive/folders/1sRxDIRRG_V93KU6NtwUn8Lz9A7sKx1h4?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/13lvpqYPE75cpPi7s54wvqqaZ4cT2l0QD?usp=sharing'
         },
         {
             name: 'Final Report',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/drive/folders/18Xf5PLXMkXRAeHoNLYjihFvBWRwgiYHa?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1tW6nvG9Cknj6t1efB-8AEOpxzvWQGYuY?usp=sharing'
         },
         {
             name: 'Poster',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/file/d/1aM1OggETK-k2eUY08SMY1e6hQMON0Xw3/view?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1txiBiriZy9p_TefyPn4Rrf6G0yZA1Q7u?usp=sharing'
         }
     ]
 
@@ -60,30 +60,30 @@ function Downloads() {
             name: 'Project Proposal',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1SU5kIvM2Ub1nnKRqA5W_1Hr8F9AFn2QQ/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1nP-BuBkrKk0VqBhzrrT-i3ecLC5qB8J4?usp=sharing'
         },
         {
-            name: 'Progress Presentation I',
+            name: 'Progress Presentation 1',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1SU5kIvM2Ub1nnKRqA5W_1Hr8F9AFn2QQ/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1nP-BuBkrKk0VqBhzrrT-i3ecLC5qB8J4?usp=sharing'
         },
         {
             name: 'Progress Presentation II',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1SBasgdnEifLM-qxqgrqrF-5sYOLFqjcn/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/1txiBiriZy9p_TefyPn4Rrf6G0yZA1Q7u?usp=sharing'
         },
         {
             name: 'Final Presentation',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://docs.google.com/presentation/d/1RDEiC8rj2Ewe3B14boyKTM93KGEIsdkX/edit?usp=sharing&ouid=115625229743362297140&rtpof=true&sd=true'
+            link: 'https://drive.google.com/drive/folders/151UkshjfW9Fspak03tApS5HQwbM3IcOK?usp=sharing'
         }
     ]
 
     return (
-        <section className='mt-5 meetteam' style={{ backgroundColor: '#a6e4f7', padding: '30px' }} id='Documents'>
+        <section className='mt-5 meetteam' style={{ backgroundColor: '#e4f8ff', padding: '30px' }} id='Documents'>
             <h1 style={{ marginLeft: '8%' }} className='mb-5'>Downloads</h1>
 
             <h4 style={{ marginLeft: '10%' }}>Documents</h4>
@@ -132,7 +132,7 @@ function Downloads() {
                                     <p style={{ fontSize: '15px', color: 'black', textDecoration: 'none', fontWeight: '500' }} className="btn btn-link btn-block ms-2">
                                         {presentation?.grouporindi}
                                     </p>
-                                    <p style={{ fontSize: '15px', color: 'green', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block" onClick={() => { window.open(`${presentation?.link}`) }}>
+                                    <p style={{ fontSize: '15px', color: '#00C3FF', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block" onClick={() => { window.open(`${presentation?.link}`) }}>
                                         <i className="fas fa-download me-1"></i> Download
                                     </p>
                                 </div>

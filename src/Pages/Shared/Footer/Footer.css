@@ -16,7 +16,7 @@
 }
 
 .myfootecss ul>li:hover {
-    color: #957bda;
+    color: #33cfff;
     cursor: pointer
 }
 
@@ -37,7 +37,7 @@
 }
 
 .myfootecss .social>i:hover {
-    color: #957bda;
+    color: #00C3FF;
     cursor: pointer
 }
 

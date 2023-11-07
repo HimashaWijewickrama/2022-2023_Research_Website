@@ -1,9 +1,10 @@
 .navbar-h {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
+    color: rgb(0,195,255);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .stickynav {

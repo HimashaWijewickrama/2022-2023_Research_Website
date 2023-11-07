@@ -8,7 +8,7 @@ function Methodology() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 pb-4 pb-lg-0 ">
-                            <img className="img-fluid rounded " style={{ height: '900px',width:'400px', marginLeft: '18%' }} src="https://github.com/SachiniRasanga/RP_Project_mobile_app/blob/master/metho.jpg?raw=true" alt="" />
+                            <img className="img-fluid rounded " style={{ height: '900px',width:'550px', marginLeft: '16%' }} src="https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/merged_sod.jpg?raw=true" alt="" />
                         </div>
                         <div className="col-lg-5">
                             <p style={{ textAlign: 'justify' }} className='me-5'>

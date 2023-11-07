@@ -1,7 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
-import '../../../images/get.png'
 
 const Navbar = () => {
     const [isSticky, setSticky] = useState(false)
@@ -224,8 +223,8 @@ const Navbar = () => {
                 <div className="navbar-heading mt-2">
                     <h3 style={{ marginLeft: '30px' }}>
                         <Link className="navbar-h ms-5" to="/">
-                            <img src="/src/image/logo1.jpg" style={{ height: '50px' }} alt="Logo" className="logo-image me-3" />
-                            AYUSHA
+                            <img src="https://github.com/HimashaWijewickrama/Tour_Buddy_Web/blob/main/Logo_main.png?raw=true" style={{ height: '50px' }} alt="Logo" className="logo-image me-3" />
+                            TOUR BUDDY
                         </Link>
                     </h3>
                 </div>

@@ -17,7 +17,7 @@ const HomePage = (props: Props) => {
     <div>
       <div className="intro" id="home">
         <h1 className="animate">Enhancing Tourist Experience in Sri Lanka through Data-Driven Recommendations</h1>
-        <p>Learn More</p>
+        <p><a href="#Literature" style={{textDecoration: 'none', color: '#ffffff'}}>Learn More</a></p>
       </div>
 
       <LiteratureSurvey />
