@@ -16,4 +16,4 @@
 
 ## Technology Stack
 
-- Frontend: Developed using ReactJS and enhanced with the Bootstrap framework, delivering a responsive and visually appealing user interface.
+- Frontend: Developed using React-TypeScript and enhanced with the Bootstrap framework, delivering a responsive and visually appealing user interface.
