@@ -51,7 +51,7 @@ function Downloads() {
             name: 'Poster',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/drive/folders/1txiBiriZy9p_TefyPn4Rrf6G0yZA1Q7u?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1vyJdrYiTR53peIHOpg5_bEplKt2jnVO3?usp=sharing'
         }
     ]
 
@@ -60,7 +60,7 @@ function Downloads() {
             name: 'Project Proposal',
             submittionDate: '2023-09-28',
             grouporindi: 'Group',
-            link: 'https://drive.google.com/drive/folders/1nP-BuBkrKk0VqBhzrrT-i3ecLC5qB8J4?usp=sharing'
+            link: 'https://drive.google.com/drive/folders/1bkaupDZzTBardqJLCfNgkH-56srGwxSA?usp=sharing'
         },
         {
             name: 'Progress Presentation 1',
