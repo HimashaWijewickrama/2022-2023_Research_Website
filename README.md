@@ -1,16 +1,18 @@
-# HELA WEDAKAMA APPLICATION TO GUIDE PATIENTS AND NATIVE PHYSICIANS
+# Tour Buddy Personalized Tour Guide Application
 
 ### [Live Site](https://ayusha-helawedakama.netlify.app/index.html)
 
 
 ## Features
-- Plant Identification
+- Destination Recommendations
 
-- Disease Identification and Recommended Doctor
+- Food and Dining Recommendations
 
-- Handwritten Prescription Identification
+- Local Food Identification
 
-- Nila Wedakama
+- Activity and Event Recommendations
+
+- Transportation Recommendations
 
 ## Technology Stack
 
