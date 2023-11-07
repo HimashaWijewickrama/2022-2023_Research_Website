@@ -1,6 +1,6 @@
 # Tour Buddy Personalized Tour Guide Application
 
-### [Live Site](https://ayusha-helawedakama.netlify.app/index.html)
+### [Live Site](https://himashawijewickrama.github.io/2022-2023_Research_Website/)
 
 
 ## Features
