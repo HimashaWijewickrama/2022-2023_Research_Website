@@ -1,7 +1,9 @@
-# Tour Buddy Personalized Tour Guide Application
+# Tour Buddy Personalized Tour Guide Application For Tourists
+
+# ENHANCING TOURIST EXPERIENCE IN SRI LANKA THROUGH DATA-DRIVEN RECOMMENDATIONS
+
 
 ### [Live Site](https://himashawijewickrama.github.io/2022-2023_Research_Website/)
-
 
 ## Features
 - Destination Recommendations
